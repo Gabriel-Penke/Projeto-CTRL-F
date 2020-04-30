@@ -4,16 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <style>
+        #header{
+            background-color: #696969;
+            height: 80px;
+            position: relative;
+        }
+        #conteiner{
+            position: absolute;
+            margin-left: 300px;
+            margin-top: 12px;
+        }
+        #inputElement{
+            width: 350px;
+        }
+        #areaTxt{
+            margin-left: 50px;
+        }
+        #result{
+            margin-top: 5px;
+            background-color: darkgray;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <input type="text" id="inputElement" placeholder="Insert a word to search">
-        <button type="button" onclick="searchWord()">Search</button>
-        <input type="checkbox" id='check'>Case insensitive
-        <p id="result"></p>
+    <div id='header'>
+        <div id="conteiner">
+            <input type="text" id="inputElement" placeholder="Insert a word to search">
+            <button type="button" onclick="searchWord()">Search</button>
+            <input type="checkbox" id='check'>Case insensitive
+            <p id="result"></p>
+        </div>
     </div>
     <hr>
-    <div>
+    <div id="areaTxt">
         <!--
         <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac nulla mauris. Proin sodales aliquam eleifend. Nam placerat enim sit amet purus blandit, vel tincidunt velit scelerisque. Phasellus aliquam auctor tempor. Praesent quis vestibulum velit, quis congue dui. Curabitur mollis enim et felis fermentum vulputate. Aliquam erat volutpat. Aliquam nunc lorem, malesuada nec purus ut, egestas tempor libero. Vivamus sit amet mauris faucibus, euismod turpis et, pharetra diam. Curabitur feugiat, augue sed rutrum ornare, neque neque sodales velit, sed imperdiet lacus massa vitae enim. Integer tortor augue, tempus vitae scelerisque vel, consequat id sapien.</p>
         -->
